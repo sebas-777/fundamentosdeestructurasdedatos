@@ -1,18 +1,16 @@
 class coche:
-    
-def_init_(self,gasolina):
-        self.gasolina = gasolina
-        print("Tenemos",gasolina,"litros")
+    def __init__(self,gasolina):
+          self.gasolina=gasolina
+          print("tenemos",gasolina,"litros")
 
-def arrancar(self):
+    def arrancar(self):
         if self.gasolina > 0:
             print("Arranca")
-        else
+        else:
             print("No arranca")
-    
-def conducir(self):
+    def conducir(self):
         if self.gasolina > 0:
-            self.gasolina -=1:
+            self.gasolina-= 1
             print("Quedan",self.gasolina,"litros")
-        else
-            print("No se mueve")
+        else:
+            print("No se mueve ")
